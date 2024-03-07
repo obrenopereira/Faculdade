@@ -28,5 +28,8 @@ public class Service {
         return consultarUrl("https://parallelum.com.br/fipe/api/v1/carros/marcas/"+marca+"/modelos"+modelo+"anos");
     }
 
+    public String consultarValor(int marca, int modelo, String ano  ){
+        return consultarUrl("https://parallelum.com.br/fipe/api/v1/carros/marcas/"+marca+"/modelos/"+modelo+"/anos/"+ano);
+    }
 
 }
