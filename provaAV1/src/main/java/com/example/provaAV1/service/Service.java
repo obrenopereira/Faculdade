@@ -6,6 +6,8 @@ import org.springframework.web.client.RestTemplate;
 @org.springframework.stereotype.Service
 public class Service {
 
+
+
     private String consultarUrl(String apiUrl){
         String dados = "";
         RestTemplate restTemplate = new RestTemplate();
